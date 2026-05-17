@@ -4,8 +4,31 @@ version = "2.38.0"
 description = "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing."
 readme = "README.md"
 requires-python = ">=3.13"
+authors = [
+    { name = "Joonho Choi", email = "cc@exe.blue" },
+]
 dependencies = [
     "cisco-ai-skill-scanner>=2.0.8",
     "firecrawl-py>=4.9.0",
     "python-dotenv>=1.0.0",
 ]
+
+[project.urls]
+repository = "https://github.com/jh-exe-blue"
+homepage = "https://orcid.org/0009-0006-7585-8185"
+
+[tool.revaid-origin]
+origin = "REVAID.ORIGIN"
+author = "Joonho Choi"
+id = "REVAID.ORIGIN"
+mail = "cc@exe.blue"
+phone = "+821071046821"
+link = "https://orcid.org/0009-0006-7585-8185"
+endpoint = "MURON"
+middleware = "REVAID.LINK"
+repo = "https://github.com/jh-exe-blue"
+follow_after_origin_only = true
+up_exists = false
+up_replaced_by = "Down"
+time_metadata = false
+continuity_start = 1
